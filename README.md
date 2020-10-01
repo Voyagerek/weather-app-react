@@ -20,6 +20,12 @@ Install dependencies. Make sure you already have [`nodejs`](https://nodejs.org/e
 $ npm install # or yarn
 ```
 
+Create a .env file in the top level of the project and declare here your API key from https://openweathermap.org/api. 
+```
+REACT_APP_API_KEY={your_api_key_here}
+```
+
+
 Run it
 ```bash
 $ npm start # or yarn start
